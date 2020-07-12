@@ -1,0 +1,19 @@
+mixin card-item(img, alt, title, decoration, measure, floor, price)
+    li.cards-item
+        article.cards-item__wrapper
+            .cards-item__header
+                button.cards-item__favorites
+                .cards-item__img-wrap
+                    img(src=img, alt=alt, class="cards-item__img")
+            .cards-item__body
+                h3(class="cards-item__title")=title
+                .cards-item__specification
+                    span(class="cards-item__apartment-decoration")=decoration
+                    .cards-item__measure-wrap
+                        span(class="cards-item__measure")=measure
+                        span(class="cards-item__measure-title") площадь
+                    .cards-item__floor-wrap
+                        span(class="cards-item__floor")=floor
+                        span(class="cards-item__floor-title") этаж
+                .cards-item__price=price
+        button.cards-item__status-btn.cards-item__status-btn--free Свободно

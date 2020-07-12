@@ -1,0 +1,54 @@
+.footer {
+    padding: 20px;
+    color: #fff;
+    background: $primary3-background-color;
+    .container {
+        @media only screen and (max-width: 768px) {
+            padding: 0;
+        }
+    }
+    .footer-wrap-title {
+        &__title {
+            margin-bottom: 10px;
+            font-size: 21px;
+            font-weight: normal;
+        }
+        
+        &__text {
+            font-size: 14px;
+            color: #ededed;
+        }
+
+        @media only screen and (max-width: 768px) {
+           margin-bottom: 10px;
+        }
+    }
+
+    .form-wrap {
+        .form-subscribe {
+            margin-bottom: 10px;
+            &__input {
+                padding: 9px;
+                margin-right: 20px;
+                &::placeholder {
+                    color: $primary3-background-color;
+                }
+
+                @media only screen and (max-width: 576px) {
+                    margin-bottom: 10px;
+                }
+            }
+    
+            &__btn {
+                padding: 10px 20px;
+                color: #fff;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                background: $primary2-background-color;
+                &:hover {
+                    @include hover-default(#ccc, .4s);
+                }
+            }
+        }
+    }
+}

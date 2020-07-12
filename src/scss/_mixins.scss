@@ -1,0 +1,45 @@
+@mixin transition-ease($property, $seconds) {
+    -webkit-transition: $property $seconds ease;
+    -moz-transition: $property $seconds ease;
+    -ms-transition: $property $seconds ease;
+    -o-transition: $property $seconds ease;
+    transition: $property $seconds ease;
+}
+
+@mixin hover-default($color, $sec) {
+    color: $color;
+    -webkit-transition: all $sec ease;
+    -moz-transition: all $sec ease;
+    -ms-transition: all $sec ease;
+    -o-transition: all $sec ease;
+    transition: all $sec ease;
+}
+
+@mixin transform-rotate($deg) {
+    -webkit-transform: rotate($deg);
+    -moz-transform: rotate($deg);
+    -ms-transform: rotate($deg);
+    -o-transform: rotate($deg);
+    transform: rotate($deg);
+}
+
+@mixin flexbox($j-c, $a-i) {
+    display: flex;
+    align-items: $a-i;
+    justify-content: $j-c;
+}
+
+@mixin flexbox-wrap($j-c, $a-i) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: $a-i;
+    justify-content: $j-c;
+}
+
+@mixin border-rad($rad) {
+    -webkit-border-radius: $rad;
+    -moz-border-radius: $rad;
+    -ms-border-radius: $rad;
+    -o-border-radius: $rad;
+    border-radius: $rad;
+}

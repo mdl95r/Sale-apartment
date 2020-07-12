@@ -1,0 +1,135 @@
+.cards-list {
+    @include flexbox-wrap(space-between, initial);
+    @media only screen and (max-width: 576px) {
+       justify-content: center;
+    }
+}
+
+.cards-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 330px;
+    margin-bottom: 20px;
+    border: 1px solid $primary2-background-color;
+    &__wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+
+    &__favorites {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        &:after {
+            position: absolute;
+            top: 6px;
+            right: 6px;
+            width: 17px;
+            height: 17px;
+            content: '';
+            background: url('../img/favorites.png');
+            background-size: contain;
+        }
+    }
+
+    &__img-wrap {
+        @include flexbox(center, center);
+        min-height: 210px;
+    }
+
+    .cards-item__header {
+        padding: 20px;
+    }
+    
+    .cards-item__body {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 20px 20px;
+    }
+
+    &__title {
+        margin-bottom: 30px;
+        font-size: 22px;
+        color: $background-color-header;
+    }
+
+    &__specification {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        font-size: 13px;
+        color: #000;   
+    }
+
+    &__apartment-decoration {
+        position: relative;
+        width: 66px;
+        font-size: 12px;
+        color: $primary3-background-color;
+        &:before {
+            position: absolute;
+            width: 4px;
+            height: 34px;
+            margin-left: -10px;
+            content: '';
+            background: $primary3-background-color;
+        }
+    }
+
+    &__measure {
+        position: relative;
+        display: block;
+        font-size: 14px;
+        &:after {
+            content: '²';
+        }
+    }
+
+    &__measure-title {
+        font-size: 11px;
+    }
+
+    &__floor {
+        display: block;
+        font-size: 14px;
+    }
+
+    &__price {
+        font-size: 21px;
+        font-weight: 600;
+        color: $background-color-header;
+    }
+
+    &__status-btn {
+        width: 100%;
+        padding: 7px 30px;
+        font-size: 11px;  
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        &:hover {
+            @include hover-default(#d4d4d4, .4s);
+        }
+    }
+
+    &__status-btn--booked {
+        background: $primary2-background-color;
+    }
+
+    &__status-btn--sold {
+        background: $primary4-background-color;
+    }
+
+    &__status-btn--free {
+        background: $background-color-header;
+    }
+}

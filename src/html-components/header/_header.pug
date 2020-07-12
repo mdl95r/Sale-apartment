@@ -1,0 +1,13 @@
+header.header
+    .header-logo
+        img(src="img/logo.png", alt="Логотип компании" class="header-logo__img")
+    nav.header-nav
+        - let values = ['Объекты', 'Компания', 'Как купить', 'Агентам', 'Регионам', 'Акции', 'Контакты'];
+        ul.header-nav__list
+            each val in values
+                li.header-nav__item
+                    a(href="#" class="header-nav__link")= val
+    .header-contacts
+        a(href="tel:+78888888888" class="header-contacts__tel") 8 (888) 888-88-88
+        p.header-contacts__desc Звони скорее!
+    button(type="button" id="burger-btn")

@@ -1,0 +1,170 @@
+@media only screen and (max-width: 768px) {
+    .container {
+         padding: 0 15px;
+    }
+}
+
+.main-content {
+    position: relative;
+    margin-bottom: 50px;
+    
+    @media only screen and (max-width: 576px) {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        padding-left: 30px;
+        margin-bottom: 30px;
+        font-size: 36px;
+        color: $background-color-header;
+        @media only screen and (max-width: 576px) {
+            padding-left: 0;
+            font-size: 25px;
+        }
+    }
+    
+    .cards-container {
+        width: 100%;
+        min-height: 500px;
+        padding: 30px;
+        background: #fff;
+        @media only screen and (max-width: 576px) {
+            padding: 0 0 20px;
+        }
+        .sort-bar {
+           display: flex;
+           margin-bottom: 20px;
+           font-size: 13px;
+           color: #006969;
+           letter-spacing: 0;
+           @media only screen and (max-width: 576px) {
+                padding: 20px 15px;
+            }
+
+            &__method {
+                margin-right: 10px;
+            }
+
+            &__price {
+                display: flex;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+
+            &__price-title {
+                margin-right: 5px;
+                &--checked {
+                    color: $background-color-header;
+                    border-bottom: dashed 1px $background-color-header;
+                }
+            }
+
+            &__room {
+                display: flex;
+                cursor: pointer;
+            }
+
+            &__room-title {
+                margin-right: 5px;
+            }
+
+            &__btn {
+                position: relative;
+                width: 20px;
+                height: 20px;
+                background: #f5f8f8;
+                @include border-rad(12px);
+                &:after {
+                    position: absolute;
+                    top: 8px;
+                    left: 8px;
+                    width: 8px;
+                    height: 2px;
+                    content: '';
+                    background: $background-color-header;
+                    @include transform-rotate(45deg);
+                }
+
+                &:before {
+                    position: absolute;
+                    top: 5px;
+                    left: 6px;
+                    width: 2px;
+                    height: 8px;
+                    content: '';
+                    background: $background-color-header;
+                    @include transform-rotate(45deg);
+                }
+
+                &--checked {
+                    &:after {
+                        @include transform-rotate(135deg);
+                    }
+    
+                    &:before {
+                        @include transform-rotate(135deg);
+                    }
+                }
+            }
+        }
+    }
+
+    .card-more-wrap {
+        @include flexbox(center, unset);
+        .card-more-btn {
+            padding: 10px 50px;
+            font-size: 13px;
+            color: #fff;
+            text-transform: uppercase;
+            background: $primary3-background-color;
+            &:hover {
+                @include hover-default(#ccc, .4s);
+            }
+        }
+    }
+}
+
+.up-btn-container {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    display: none;
+    width: 60px;
+    height: 100%;
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
+
+    .up-btn {
+        position: fixed;
+        top: 50%;
+        right: 81px;
+        width: 50px;
+        height: 50px;
+        background: $primary2-background-color;
+        transform: translateX(50%);
+        @include border-rad(100%);
+        &:after {
+            position: absolute;
+            top: 23px;
+            left: 22px;
+            width: 23px;
+            height: 3px;
+            content: '';
+            background: #fff;
+            @include transform-rotate(45deg);
+        }
+
+        &:before {
+            position: absolute;
+            top: 13px;
+            left: 17px;
+            width: 3px;
+            height: 23px;
+            content: '';
+            background: #fff;
+            @include transform-rotate(45deg);
+        }
+    }
+}
+
