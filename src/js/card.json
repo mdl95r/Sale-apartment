@@ -1,4 +1,14 @@
-{
-    "title": "Студия №44",
-    "price": "12 900 000 руб."
-}
+{"apartaments": [{
+        "title": "Студия №44",
+        "price": "5 467 000 руб.",
+        "floor": "6/12",
+        "image": "img/Layer632@1X.png"
+    },
+
+    {
+        "title": "Четырехкомнатная №259",
+        "price": "12 900 000 руб.",
+        "floor": "4/12",
+        "image": "img/Layer633@1X.png"
+    }
+]}

@@ -23,6 +23,28 @@
         padding: 10px 20px;
     }
 }
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    animation-name: fixHeader;
+    animation-duration: .8s;
+    
+}
+
+@keyframes fixHeader {
+    0% {
+        top: -50px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
 .header-nav {
     @include transition-ease(left, .5s);
     @media only screen and (max-width: 768px) {
