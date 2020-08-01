@@ -31,84 +31,8 @@
         @media only screen and (max-width: 576px) {
             padding: 0 0 20px;
         }
-        .sort-bar {
-           display: flex;
-           margin-bottom: 20px;
-           font-size: 13px;
-           color: #006969;
-           letter-spacing: 0;
-           @media only screen and (max-width: 576px) {
-                padding: 20px 15px;
-            }
-
-            &__method {
-                margin-right: 10px;
-            }
-
-            &__price {
-                display: flex;
-                margin-right: 10px;
-                cursor: pointer;
-            }
-
-            &__price-title {
-                margin-right: 5px;
-                &--checked {
-                    color: $background-color-header;
-                    border-bottom: dashed 1px $background-color-header;
-                }
-            }
-
-            &__room {
-                display: flex;
-                cursor: pointer;
-            }
-
-            &__room-title {
-                margin-right: 5px;
-            }
-
-            &__btn {
-                position: relative;
-                width: 20px;
-                height: 20px;
-                background: #f5f8f8;
-                @include border-rad(12px);
-                &:after {
-                    position: absolute;
-                    top: 8px;
-                    left: 8px;
-                    width: 8px;
-                    height: 2px;
-                    content: '';
-                    background: $background-color-header;
-                    @include transform-rotate(45deg);
-                }
-
-                &:before {
-                    position: absolute;
-                    top: 5px;
-                    left: 6px;
-                    width: 2px;
-                    height: 8px;
-                    content: '';
-                    background: $background-color-header;
-                    @include transform-rotate(45deg);
-                }
-
-                &--checked {
-                    &:after {
-                        @include transform-rotate(135deg);
-                    }
-    
-                    &:before {
-                        @include transform-rotate(135deg);
-                    }
-                }
-            }
-        }
     }
-
+    
     .card-more-wrap {
         @include flexbox(center, unset);
         .card-more-btn {
@@ -132,7 +56,8 @@
     width: 60px;
     height: 100%;
     @media only screen and (max-width: 768px) {
-        display: none;
+        right: 0;
+        width: 37px;
     }
 
     .up-btn {
@@ -144,6 +69,11 @@
         background: $primary2-background-color;
         transform: translateX(50%);
         @include border-rad(100%);
+        @media only screen and (max-width: 768px) {
+            right: 18px;
+            width: 35px;
+            height: 35px;
+        }
         &:after {
             position: absolute;
             top: 23px;
@@ -153,6 +83,12 @@
             content: '';
             background: #fff;
             @include transform-rotate(45deg);
+            @media only screen and (max-width: 768px) {
+                top: 7px;
+                left: 10px;
+                width: 3px;
+                height: 19px;
+            }
         }
 
         &:before {
@@ -164,6 +100,12 @@
             content: '';
             background: #fff;
             @include transform-rotate(45deg);
+            @media only screen and (max-width: 768px) {
+                top: 15px;
+                left: 14px;
+                width: 19px;
+                height: 3px;
+            }
         }
     }
 }

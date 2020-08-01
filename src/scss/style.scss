@@ -1,7 +1,9 @@
 @import '_vars';
 @import '_mixins';
+@import '_animations';
 @import '_header';
 @import '_main';
+@import '_sort-bar';
 @import '_card';
 @import '_footer';
 
@@ -10,6 +12,7 @@
 }
 
 body {
+    position: relative;
     min-width: 320px;
     font-family: 'Open Sans', sans-serif;
     color: $default-text-color;

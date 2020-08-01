@@ -12,6 +12,10 @@
     width: 330px;
     margin-bottom: 20px;
     border: 1px solid $primary2-background-color;
+    @media only screen and (max-width: 425px) {
+        width: 260px;
+    }
+
     &__wrapper {
         position: relative;
         display: flex;
@@ -33,7 +37,14 @@
             width: 17px;
             height: 17px;
             content: '';
-            background: url('../img/favorites.png');
+            background: url('../img/fav-default.png');
+            background-size: contain;
+        }
+    }
+
+    &__favorites--fav {
+        &:after {
+            background: url('../img/fav-heart.png');
             background-size: contain;
         }
     }

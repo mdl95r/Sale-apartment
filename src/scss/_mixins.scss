@@ -43,3 +43,8 @@
     -o-border-radius: $rad;
     border-radius: $rad;
 }
+
+@mixin anim($name, $duration, $timing) {
+    -webkit-animation: $name $duration $timing;
+    animation: $name $duration $timing;
+}

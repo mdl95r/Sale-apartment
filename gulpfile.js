@@ -4,49 +4,49 @@ const components = "components";
 
 const path = {
   build: {
-    html: project_folder+"/",
-    css: project_folder+"/css/",
-    js: project_folder+"/js/",
-    img: project_folder+"/img/",
+    html: project_folder + "/",
+    css: project_folder + "/css/",
+    js: project_folder + "/js/",
+    img: project_folder + "/img/",
     fonts: project_folder + "/fonts/",
   },
 
   src: {
-    html: [source_folder+"/*.html", "!"+source_folder +  "/_*.html"],
-    pug: source_folder+"/*.pug",
-    css: source_folder+"/scss/style.scss",
-    js: [source_folder+"/js/*.{js,json}", "!" + source_folder + "/" + components + "/_*.js"],
+    html: [source_folder + "/*.html", "!" + source_folder + "/_*.html"],
+    pug: source_folder + "/*.pug",
+    css: source_folder + "/scss/style.scss",
+    js: [source_folder + "/js/*.{js,json,csv}", "!" + source_folder + "/" + components + "/_*.js"],
     img: source_folder + "/img/**/*.{jpg,jpeg,png,svg,webp}",
     fonts: source_folder + "/fonts/*.{woff,woff2,ttf,svg}",
   },
 
   watch: {
     html: source_folder + "/**/*.html",
-    pug: source_folder+"/**/*.pug",
+    pug: source_folder + "/**/*.pug",
     css: source_folder + "/scss/**/*.scss",
-    js: source_folder + "/js/**/*.js",
-    img: source_folder+ "/img",
+    js: source_folder + "/js/**/*.{js,json}",
+    img: source_folder + "/img",
   },
 
   clean: "./" + project_folder + "/"
 }
 
-const {src, dest} = require('gulp'),
-      gulp = require('gulp'),
-      fileinclude = require('gulp-file-include'),
-      scss = require('gulp-sass'),
-      autoprefixer = require('gulp-autoprefixer'),
-      imgmin = require('gulp-imagemin'),
-      webp = require('gulp-webp'),
-      del = require('del'),
-      gulpPug = require('gulp-pug'),
-      webphtml = require('gulp-webp-html'),
-      groupMedia = require('gulp-group-css-media-queries'),
-      browsersync = require("browser-sync").create(),
-      gulpStylelint = require('gulp-stylelint'),
-      cleanCss = require('gulp-clean-css'),
-      renameCss = require('gulp-rename');
-      // uglify = require('gulp-uglify');
+const { src, dest } = require('gulp'),
+  gulp = require('gulp'),
+  fileinclude = require('gulp-include'),
+  scss = require('gulp-sass'),
+  autoprefixer = require('gulp-autoprefixer'),
+  imgmin = require('gulp-imagemin'),
+  webp = require('gulp-webp'),
+  del = require('del'),
+  gulpPug = require('gulp-pug'),
+  webphtml = require('gulp-webp-html'),
+  groupMedia = require('gulp-group-css-media-queries'),
+  browsersync = require("browser-sync").create(),
+  gulpStylelint = require('gulp-stylelint'),
+  cleanCss = require('gulp-clean-css'),
+  renameCss = require('gulp-rename'),
+  minify = require('gulp-minify');
 
 function browserSync() {
   browsersync.init({
@@ -63,30 +63,22 @@ function browserSync() {
 function html() {
   return src(path.src.html)
     .pipe(fileinclude())
-    .pipe(webphtml())
     .pipe(dest(path.build.html))
     .pipe(browsersync.stream())
 }
 
 function pug() {
   return src(path.src.pug)
-    .pipe(
-      gulpPug({
-        pretty: true
-      }))
+    .pipe(gulpPug({ pretty: true }))
+    .pipe(webphtml())
     .pipe(dest(path.build.html))
     .pipe(browsersync.stream())
 }
-  
+
 function js() {
   return src(path.src.js)
     .pipe(fileinclude())
-    // .pipe(dest(path.build.js))
-    // .pipe(uglify())
-    // .pipe(
-    //   renameCss({
-    //     extname: ".min.js"
-    //   }))
+    .pipe(minify({ noSource: true }))
     .pipe(dest(path.build.js))
     .pipe(browsersync.stream())
 }
@@ -95,7 +87,7 @@ function images() {
   return src(path.src.img)
     .pipe(
       webp({
-          quality: 70
+        quality: 70
       })
     )
     .pipe(dest(path.build.img))
@@ -126,7 +118,7 @@ function css() {
         cascade: true
       })
     )
-    
+
     .pipe(dest(path.build.css))
 
     .pipe(cleanCss())
@@ -137,20 +129,19 @@ function css() {
       }))
 
     .pipe(dest(path.build.css))
-    
+
     .pipe(browsersync.stream())
 }
 
 function fonts() {
   return src(path.src.fonts)
-  .pipe(dest(path.build.fonts))
-  .pipe(browsersync.stream())
+    .pipe(dest(path.build.fonts))
+    .pipe(browsersync.stream())
 }
-
 
 function lintCss() {
   return src(path.src.css)
-   
+
     .pipe(gulpStylelint({
       reporters: [
         {

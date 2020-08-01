@@ -1,0 +1,102 @@
+.sort-bar {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #006969;
+    letter-spacing: 0;
+    @media only screen and (max-width: 576px) {
+        padding: 20px 15px;
+    }
+
+    &__method {
+        margin-right: 10px;
+    }
+}
+
+.method-block {
+    display: flex;
+    margin-right: 7px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.sort-title {
+    margin-right: 5px;
+}
+
+.sort-list {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    z-index: 2;
+    display: none;
+    width: 165px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.31) 0 8px 12px 0;
+    @include anim(price_list, .2s, ease);
+
+    @media only screen and (max-width: 576px) {
+        top: 42px;
+        left: 13px;
+    } 
+
+    // .sort-list__item
+
+    &__item {
+        padding: 10px;
+        cursor: pointer;
+        &:hover {
+            background: #eaeaea;
+            @include transition-ease(background, .3s);
+        }
+        @include anim(price_items, .2s, ease);
+    }
+
+    &.sort-list--active {
+        display: block;
+    }
+}
+.sort-btn {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #f5f8f8;
+    @include border-rad(12px);
+    &:after {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        width: 8px;
+        height: 2px;
+        content: '';
+        background: $background-color-header;
+        @include transform-rotate(45deg);
+        @include transition-ease(all, .3s);
+    }
+
+    &:before {
+        position: absolute;
+        top: 5px;
+        left: 6px;
+        width: 2px;
+        height: 8px;
+        content: '';
+        background: $background-color-header;
+        @include transform-rotate(45deg);
+        @include transition-ease(all, .3s);
+    }
+
+    &.sort-btn--active {
+        &:after {
+            @include transform-rotate(135deg);
+            @include transition-ease(all, .3s);
+        }
+
+        &:before {
+            @include transform-rotate(135deg);
+            @include transition-ease(all, .3s);
+        }
+    }
+}

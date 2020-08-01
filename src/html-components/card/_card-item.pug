@@ -1,5 +1,5 @@
-mixin card-item(img, alt, title, decoration, measure, floor, price)
-    li.cards-item
+mixin card-item(img, alt, title, decoration, measure, floor, price, dataPrice, dataRoom)
+    li.cards-item(data-price=dataPrice, data-room=dataRoom)
         article.cards-item__wrapper
             .cards-item__header
                 button.cards-item__favorites
