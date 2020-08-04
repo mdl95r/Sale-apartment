@@ -1,55 +1,60 @@
 cardsList.addEventListener('click', function (e) {
-    const target = e.target;
-    if (target && target.classList.contains('cards-item__status-btn')) {
-        target.classList.remove('cards-item__status-btn--free');
-        target.classList.add('cards-item__status-btn--booked');
-        target.innerHTML = 'Забронировано';
-    }
+  const target = e.target;
+  if (target && target.classList.contains('cards-item__status-btn')) {
+    target.classList.remove('cards-item__status-btn--free');
+    target.classList.add('cards-item__status-btn--booked');
+    target.innerHTML = 'Забронировано';
+  }
 });
 
 cardsList.addEventListener('click', function (e) {
-    const target = e.target;
-    if (target && target.classList.contains('cards-item__favorites')) {
-        target.classList.toggle('cards-item__favorites--fav');
-        target.toggleAttribute('data-fav');
-    }
+  const target = e.target;
+  if (target && target.classList.contains('cards-item__favorites')) {
+    target.classList.toggle('cards-item__favorites--fav');
+  }
+
+  if (target && target.classList.contains('cards-item__favorites--fav')) {
+    target.setAttribute('data-fav', true);
+  } else {
+    target.removeAttribute('data-fav', true);
+  }
 });
 
 function loadCards(method, url) {
-    const xhr = new XMLHttpRequest();
-    xhr.open(method, url, true);
+  const xhr = new XMLHttpRequest();
+  xhr.open(method, url, true);
 
-    xhr.onload = function () {
-        if (this.status != 200) {
-            alert(this.status + ': ' + this.statusText);
-        } else {
-            const data = JSON.parse(this.responseText);
-            showCards(data);
-        }
-    };
+  xhr.onload = function () {
+    if (this.status != 200) {
+      alert(this.status + ': ' + this.statusText);
+    } else {
+      const data = JSON.parse(this.responseText);
+      showCards(data);
+    }
+  };
 
-    xhr.send();
+  xhr.send();
 }
 
 cardMore.addEventListener('click', function (e) {
-    e.preventDefault();
-    loadCards('GET', 'js/card.json');
-    this.remove();
+  e.preventDefault();
+  loadCards('GET', 'js/card.json');
+  cardsContainer.removeChild(cardMoreWrap);
 });
 
 function setAttributes(el, attrs) {
-    for (let key in attrs) {
-        el.setAttribute(key, attrs[key]);
-    }
+  for (let key in attrs) {
+    el.setAttribute(key, attrs[key]);
+  }
 }
 
 function showCards(data) {
-    data.forEach(function (card) {
-        const li = cardsList.appendChild(document.createElement('li'));
-        li.className = 'cards-item';
-        setAttributes(li, { "data-price": `${card.dataPrice}`, "data-room": `${card.dataRoom}` });
-        li.innerHTML =
-            `
+  data.forEach(function (card) {
+    const li = cardsList.appendChild(document.createElement('li'));
+    li.className = 'cards-item';
+    setAttributes(li, { "data-price": `${card.dataPrice}`, "data-room": `${card.dataRoom}` });
+    li.innerHTML =
+      `
           <article class="cards-item__wrapper">
             <div class="cards-item__header">
               <button class="cards-item__favorites"></button>
@@ -79,20 +84,20 @@ function showCards(data) {
           <button class="cards-item__status-btn cards-item__status-btn--free">Свободно</button>
         `
 
-        if (priceIncrease.classList.contains('active')) {
-            sortListIncrease('data-price');
-        }
+    if (priceIncrease.classList.contains('active')) {
+      sortListIncrease('data-price');
+    }
 
-        if (priceDecrease.classList.contains('active')) {
-            sortListDecrease('data-price');
-        }
+    if (priceDecrease.classList.contains('active')) {
+      sortListDecrease('data-price');
+    }
 
-        if (roomIncrease.classList.contains('active')) {
-            sortListIncrease('data-room');
-        }
+    if (roomIncrease.classList.contains('active')) {
+      sortListIncrease('data-room');
+    }
 
-        if (roomDecrease.classList.contains('active')) {
-            sortListDecrease('data-room');
-        }
-    });
+    if (roomDecrease.classList.contains('active')) {
+      sortListDecrease('data-room');
+    }
+  });
 }

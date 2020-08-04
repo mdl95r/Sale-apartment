@@ -4,7 +4,7 @@
   "description": "sale_appartments",
   "scripts": {
     "start": "gulp",
-    "build": "babel #dest/js -d final-js --presets es2015",
+    "build": "babel dist/js -d final-js --presets es2015",
     "eslint": "eslint ./src",
     "eslint:fix": "eslint ./src --fix"
   },

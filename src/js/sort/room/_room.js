@@ -17,7 +17,7 @@ sortRoomBtn.addEventListener('click', function () {
 function hideRoomList() {
     document.onclick = function (e) {
         const target = e.target;
-        if (!target.matches('.sort-room__btn')) {
+        if (!target.classList.contains('sort-room__btn')) {
             sortRoomList.classList.remove('sort-list--active');
             sortRoomList.removeAttribute('style');
             sortRoomBtn.classList.remove('sort-btn--active');

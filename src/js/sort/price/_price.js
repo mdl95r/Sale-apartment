@@ -16,7 +16,7 @@ sortPriceBtn.addEventListener('click', function () {
 function hidePriceList() {
     document.onclick = function (e) {
         const target = e.target;
-        if (!target.matches('.sort-price__btn')) {
+        if (!target.classList.contains('sort-price__btn')) {
             sortPriceList.classList.remove('sort-list--active');
             sortPriceBtn.classList.remove('sort-btn--active');
         }

@@ -3,14 +3,14 @@ html(lang="ru")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
         link(rel="stylesheet", href="css/style.min.css")
-        link(rel="stylesheet", href="css/normalize.css")
+        link(rel="stylesheet", href="css/normalize.min.css")
         title Sale apartments
     body
         include html-components/header/_header.pug
         include html-components/card/_card-item.pug
         include html-components/main/_main.pug
         include html-components/footer/_footer.pug
-        button.up-btn-container
-            div.up-btn
+        include html-components/buttons/_button.pug
         script(src="js/scripts-min.js")

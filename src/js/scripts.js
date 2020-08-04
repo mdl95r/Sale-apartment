@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     header = document.querySelector('.header'),
     headNav = document.querySelector('.header-nav'),
     upBtn = document.querySelector('.up-btn-container'),
+    cardsContainer = document.querySelector('.cards-container'),
+    cardMoreWrap = document.querySelector('.card-more-wrap'),
     cardMore = document.querySelector('.card-more-btn'),
     sortPriceBtn = document.querySelector('.sort-price__btn'),
     sortPriceList = document.querySelector('.sort-price__list'),
