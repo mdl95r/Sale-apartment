@@ -84,19 +84,19 @@ function showCards(data) {
           <button class="cards-item__status-btn cards-item__status-btn--free">Свободно</button>
         `
 
-    if (priceIncrease.classList.contains('active')) {
+    if (priceIncrease.classList.contains('sort-list__item--active')) {
       sortListIncrease('data-price');
     }
 
-    if (priceDecrease.classList.contains('active')) {
+    if (priceDecrease.classList.contains('sort-list__item--active')) {
       sortListDecrease('data-price');
     }
 
-    if (roomIncrease.classList.contains('active')) {
+    if (roomIncrease.classList.contains('sort-list__item--active')) {
       sortListIncrease('data-room');
     }
 
-    if (roomDecrease.classList.contains('active')) {
+    if (roomDecrease.classList.contains('sort-list__item--active')) {
       sortListDecrease('data-room');
     }
   });

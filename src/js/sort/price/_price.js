@@ -24,21 +24,21 @@ function hidePriceList() {
 }
 
 function priceIncreaseClick() {
-    const priceIncrease = document.querySelector('.sort-price__item--increase'),
-        priceDecrease = document.querySelector('.sort-price__item--decrease');
+    const priceIncrease = document.querySelector('.js-sort-price-increase'),
+        priceDecrease = document.querySelector('.js-sort-price-decrease');
     priceIncrease.onclick = function () {
-        this.classList.add('active');
-        priceDecrease.classList.remove('active');
+        this.classList.add('sort-list__item--active');
+        priceDecrease.classList.remove('sort-list__item--active');
         sortListIncrease('data-price');
     }
 }
 
 function priceDecreaseClick() {
-    const priceDecrease = document.querySelector('.sort-price__item--decrease'),
-        priceIncrease = document.querySelector('.sort-price__item--increase');
+    const priceDecrease = document.querySelector('.js-sort-price-decrease'),
+        priceIncrease = document.querySelector('.js-sort-price-increase');
     priceDecrease.onclick = function () {
-        this.classList.add('active');
-        priceIncrease.classList.remove('active');
+        this.classList.add('sort-list__item--active');
+        priceIncrease.classList.remove('sort-list__item--active');
         sortListDecrease('data-price');
     }
 }

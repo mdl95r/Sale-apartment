@@ -7,16 +7,16 @@ main.main-content
                 .sort-bar__method Сортировать по:
                 .sort-bar__price.sort-price.method-block
                     .sort-price__title.sort-title Цене
-                    ul.sort-price__list.sort-list
-                        li.sort-list__item.sort-price__item--increase По возрастанию
-                        li.sort-list__item.sort-price__item--decrease По убыванию
-                    button.sort-btn.sort-price__btn
+                    ul.sort-price__list.sort-list.js-sort-price__list
+                        li.sort-list__item.js-sort-price-increase По возрастанию
+                        li.sort-list__item.js-sort-price-decrease По убыванию
+                    button.sort-btn.sort-price__btn.js-sort-price-btn
                 .sort-bar__room.sort-room.method-block
                     div.sort-room__title.sort-title Комнатам
-                    ul.sort-room__list.sort-list
-                        li.sort-list__item.sort-room__item--increase По возрастанию
-                        li.sort-list__item.sort-room__item--decrease По убыванию
-                    button.sort-btn.sort-room__btn
-            include ../card/_card-list.pug
+                    ul.sort-room__list.sort-list.js-sort-room__list
+                        li.sort-list__item.js-sort-room-increase По возрастанию
+                        li.sort-list__item.js-sort-room-decrease По убыванию
+                    button.sort-btn.sort-room__btn.js-sort-room-btn
+            include ../card/_card-item.pug
             .card-more-wrap
-                a(href="#" class="card-more-btn") Показать еще
+                a(href="#" class="card-more-btn js-card-more-btn") Показать еще

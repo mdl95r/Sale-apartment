@@ -6,23 +6,24 @@
     margin-bottom: 40px;
     color: #fff;
     background: $background-color-header;
-    // .header__logo
-
-    .header-logo {
-
-       &__img {
-            width: 25px;
-            @media only screen and (max-width: 576px) {
-                width: 20px;
-            }
-       }
-    }
+  
 
     @media only screen and (max-width: 992px) {
         justify-content: space-between;
         padding: 10px 20px;
     }
 }
+
+  // .header__logo
+
+.header-logo {
+    &__img {
+         width: 25px;
+         @media only screen and (max-width: 576px) {
+                width: 20px;
+         }
+    }
+ }
 
 .header-fixed {
     position: fixed;
@@ -77,9 +78,7 @@
             border-bottom: 1px solid #767676;
         }
     }
-
     // .header-nav__link
-
     &__link {
         font-size: 21px;
         color: #fff;
@@ -94,7 +93,6 @@
 }
 
 .header-contacts {
-
     // .header-contacts__tel
 
     &__tel {
@@ -122,7 +120,7 @@
     }
 }
 
-#burger-btn {
+.burger-btn {
     position: relative;
     display: none;
     width: 31px;
@@ -154,7 +152,7 @@
         @include transition-ease(all, .3s);
     }
 
-    &.active {
+    &--active {
         &:before {
             position: absolute;
             top: 12px;

@@ -1,21 +1,21 @@
+"use strict";
 document.addEventListener('DOMContentLoaded', function () {
-
-  const burgerBtn = document.getElementById('burger-btn'),
+  const burgerBtn = document.querySelector('.burger-btn'),
     menuList = document.querySelector('.header-nav__list'),
     header = document.querySelector('.header'),
     headNav = document.querySelector('.header-nav'),
     upBtn = document.querySelector('.up-btn-container'),
     cardsContainer = document.querySelector('.cards-container'),
     cardMoreWrap = document.querySelector('.card-more-wrap'),
-    cardMore = document.querySelector('.card-more-btn'),
-    sortPriceBtn = document.querySelector('.sort-price__btn'),
-    sortPriceList = document.querySelector('.sort-price__list'),
-    sortRoomBtn = document.querySelector('.sort-room__btn'),
-    sortRoomList = document.querySelector('.sort-room__list'),
-    priceIncrease = document.querySelector('.sort-price__item--increase'),
-    priceDecrease = document.querySelector('.sort-price__item--decrease'),
-    roomIncrease = document.querySelector('.sort-room__item--increase'),
-    roomDecrease = document.querySelector('.sort-room__item--decrease'),
+    cardMore = document.querySelector('.js-card-more-btn'),
+    sortPriceBtn = document.querySelector('.js-sort-price-btn'),
+    sortPriceList = document.querySelector('.js-sort-price__list'),
+    sortRoomBtn = document.querySelector('.js-sort-room-btn'),
+    sortRoomList = document.querySelector('.js-sort-room__list'),
+    priceIncrease = document.querySelector('.js-sort-price-increase'),
+    priceDecrease = document.querySelector('.js-sort-price-decrease'),
+    roomIncrease = document.querySelector('.js-sort-room-increase'),
+    roomDecrease = document.querySelector('.js-sort-room-decrease'),
     cardsList = document.querySelector('.cards-list');
 
   // =include card/_card.js

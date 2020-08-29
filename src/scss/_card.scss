@@ -54,11 +54,11 @@
         min-height: 210px;
     }
 
-    .cards-item__header {
+    &__header {
         padding: 20px;
     }
     
-    .cards-item__body {
+    &__body {
         display: flex;
         flex-direction: column;
         flex-grow: 1;

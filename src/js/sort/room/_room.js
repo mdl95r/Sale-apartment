@@ -26,8 +26,8 @@ function hideRoomList() {
 }
 
 function roomIncreaseClick() {
-    const roomIncrease = document.querySelector('.sort-room__item--increase'),
-        roomDecrease = document.querySelector('.sort-room__item--decrease');
+    const roomIncrease = document.querySelector('.js-sort-room-increase'),
+        roomDecrease = document.querySelector('.js-sort-room-decrease');
     roomIncrease.onclick = function () {
         this.classList.add('active');
         roomDecrease.classList.remove('active');
@@ -36,11 +36,11 @@ function roomIncreaseClick() {
 }
 
 function roomDecreaseClick() {
-    const roomDecrease = document.querySelector('.sort-room__item--decrease'),
-        roomIncrease = document.querySelector('.sort-room__item--increase');
+    const roomDecrease = document.querySelector('.js-sort-room-decrease'),
+        roomIncrease = document.querySelector('.js-sort-room-increase');
     roomDecrease.onclick = function () {
-        this.classList.add('active');
-        roomIncrease.classList.remove('active');
+        this.classList.add('sort-list__item--active');
+        roomIncrease.classList.remove('sort-list__item--active');
         sortListDecrease('data-room');
     }
 }
