@@ -12,12 +12,16 @@ burgerBtn.addEventListener('click', function () {
     }
 });
 
-burgerBtn.onblur = function () {
-    headNav.style.left = '';
-    setTimeout(function () {
-        menuList.removeAttribute('style');
-        headNav.removeAttribute('style');
-    }, 100);
+document.onclick = function (e) {
+    const target = e.target;
+    if (!target.classList.contains('burger-btn')) {
+        headNav.style.left = '';
+        burgerBtn.classList.remove('burger-btn--active');
+        setTimeout(function () {
+            menuList.removeAttribute('style');
+            headNav.removeAttribute('style');
+        }, 100);
+    }
 }
 
 window.addEventListener('resize', function () {
