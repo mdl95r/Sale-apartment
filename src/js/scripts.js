@@ -16,7 +16,15 @@ document.addEventListener('DOMContentLoaded', function () {
     priceDecrease = document.querySelector('.js-sort-price-decrease'),
     roomIncrease = document.querySelector('.js-sort-room-increase'),
     roomDecrease = document.querySelector('.js-sort-room-decrease'),
-    cardsList = document.querySelector('.cards-list');
+    cardsList = document.querySelector('.cards-list'),
+    cardsItems = document.querySelectorAll('.cards-item'),
+    appartsCount = document.querySelector('.js-main-content__title'),
+    appartsEnd = document.querySelector('.js-main-content__title-bottom');
+  let cardsCountFinal;
+  let data;
+  let result;
+  let ElementsInArray;
+
 
   // =include card/_card.js
   // =include menu/_menu.js

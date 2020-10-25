@@ -8,7 +8,7 @@
     background: $background-color-header;
   
 
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: $lg) {
         justify-content: space-between;
         padding: 10px 20px;
     }
@@ -19,7 +19,7 @@
 .header-logo {
     &__img {
          width: 25px;
-         @media only screen and (max-width: 576px) {
+         @media only screen and (max-width: $sm) {
                 width: 20px;
          }
     }
@@ -36,7 +36,7 @@
 
 .header-nav {
     @include transition-ease(left, .5s);
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: $md) {
         position: absolute;
         top: 87px;
         left: -999px;
@@ -66,11 +66,11 @@
             margin-right: 22px;
         }
 
-        @media only screen and (max-width: 992px) {
+        @media only screen and (max-width: $lg) {
             margin-right: 7px;
         }
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: $md) {
             padding-bottom: 5px;
             margin-right: 0;
             margin-bottom: 5px;
@@ -86,7 +86,7 @@
             @include hover-default(#ccc, .2s);
         }
 
-        @media only screen and (max-width: 992px) {
+        @media only screen and (max-width: $lg) {
             font-size: 18px;
         } 
     }
@@ -98,11 +98,11 @@
     &__tel {
         font-size: 22px;
         color: #fff;
-        @media only screen and (max-width: 992px) {
+        @media only screen and (max-width: $lg) {
             font-size: 18px;
         }
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: $md) {
             font-size: 22px;
         } 
         &:hover {
@@ -114,7 +114,7 @@
 
     &__desc {
         font-size: 17px;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: $md) {
             text-align: center;
         }
     }
@@ -125,7 +125,7 @@
     display: none;
     width: 31px;
     height: 29px;
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: $md) {
        display: block;
     }
 

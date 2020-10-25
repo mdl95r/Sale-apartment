@@ -1,3 +1,41 @@
+window.onload = getAppartsCount('GET', 'js/card.json');
+
+function getAppartsCount(method, url) {
+  let cardsCountFirst = cardsItems.length;
+  let cardsCountLast;
+
+  const xhr = new XMLHttpRequest();
+  xhr.open(method, url);
+
+  setTimeout(function () {
+    xhr.onload = function () {
+      if (this.status != 200) {
+        alert(this.status + ': ' + this.statusText);
+      } else {
+        data = JSON.parse(this.responseText);
+        cardsCountLast = data.length;
+        cardsCountFinal = cardsCountFirst + cardsCountLast;
+        appartsCount.innerHTML = `Найдено ${cardsCountFinal} ${declination(cardsCountFinal, ['квартира', 'квартиры', 'квартир'])}`;
+      }
+    };
+    xhr.send();
+  }, 1300)
+}
+
+// функция для добавления окончания зависимости от кол-ва чего-либо (в данном случае квартир)
+function declination(n, appartsWords) {
+  n = Math.abs(n) % 100;
+  let n1 = n % 10;
+
+  if (n > 10 && n < 20) return appartsWords[2];
+
+  if (n1 > 1 && n1 < 5) return appartsWords[1];
+
+  if (n1 == 1) return appartsWords[0];
+
+  return appartsWords[2];
+}
+
 cardsList.addEventListener('click', function (e) {
   const target = e.target;
   if (target && target.classList.contains('cards-item__status-btn')) {
@@ -20,39 +58,39 @@ cardsList.addEventListener('click', function (e) {
   }
 });
 
-function loadCards(method, url) {
-  const xhr = new XMLHttpRequest();
-  xhr.open(method, url, true);
-
-  xhr.onload = function () {
-    if (this.status != 200) {
-      alert(this.status + ': ' + this.statusText);
-    } else {
-      const data = JSON.parse(this.responseText);
-      showCards(data);
-    }
+function getElementsInArray(arr) {
+  let STEP = 18;
+  let _offset = 0;
+  console.log(data);
+  result = function () {
+    let offset = _offset++ * STEP;
+    return arr.slice(offset, offset + STEP);
   };
-
-  xhr.send();
+  return result;
 }
+
+setTimeout(function () {
+  ElementsInArray = getElementsInArray(data);
+}, 1700)
 
 cardMore.addEventListener('click', function (e) {
   e.preventDefault();
-  loadCards('GET', 'js/card.json');
-  cardsContainer.removeChild(cardMoreWrap);
+  const cardsItems = document.querySelectorAll('.cards-item');
+  const cardsReady = ElementsInArray();
+
+  if (cardsItems.length == cardsCountFinal) {
+    cardMore.remove();
+    appartsEnd.classList.add('main-content__title-bottom_show');
+  }
+
+  showCards(cardsReady);
 });
 
-function setAttributes(el, attrs) {
-  for (let key in attrs) {
-    el.setAttribute(key, attrs[key]);
-  }
-}
-
 function showCards(data) {
-  data.forEach(function (card) {
+  data.forEach(function (item) {
     const li = cardsList.appendChild(document.createElement('li'));
     li.className = 'cards-item';
-    setAttributes(li, { "data-price": `${card.dataPrice}`, "data-room": `${card.dataRoom}` });
+    setAttributes(li, { "data-price": `${item.dataPrice}`, "data-room": `${item.dataRoom}` });
     li.innerHTML =
       `
           <article class="cards-item__wrapper">
@@ -60,25 +98,25 @@ function showCards(data) {
               <button class="cards-item__favorites"></button>
               <div class="cards-item__img-wrap">
                 <picture>
-                  <source srcset="${card.imageWebp}" type="image/webp">
-                  <img class="cards-item__img" src="${card.image}" alt="${card.imageAlt}">
+                  <source srcset="${item.imageWebp}" type="image/webp">
+                  <img class="cards-item__img" src="${item.image}" alt="${item.imageAlt}">
                 </picture>
               </div>
             </div>
             <div class="cards-item__body">
-              <h3 class="cards-item__title">${card.title}</h3>
+              <h3 class="cards-item__title">${item.title}</h3>
               <div class="cards-item__specification">
-                <span class="cards-item__apartment-decoration">${card.decor}</span>
+                <span class="cards-item__apartment-decoration">${item.decor}</span>
                 <div class="cards-item__measure-wrap">
-                  <span class="cards-item__measure">${card.measure}</span>
+                  <span class="cards-item__measure">${item.measure}</span>
                   <span class="cards-item__measure-title">площадь</span>
                 </div>
                 <div class="cards-item__floor-wrap">
-                  <span class="cards-item__floor">${card.floor}</span>
+                  <span class="cards-item__floor">${item.floor}</span>
                   <span class="cards-item__floor-title">этаж</span>
                 </div>
               </div>
-              <h4 class="cards-item__price">${card.price}</h4>
+              <h4 class="cards-item__price">${item.price}</h4>
             </div>
           </article>
           <button class="cards-item__status-btn cards-item__status-btn--free">Свободно</button>
@@ -100,4 +138,10 @@ function showCards(data) {
       sortListDecrease('data-room');
     }
   });
+}
+
+function setAttributes(el, attrs) {
+  for (let key in attrs) {
+    el.setAttribute(key, attrs[key]);
+  }
 }

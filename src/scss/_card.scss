@@ -1,6 +1,6 @@
 .cards-list {
     @include flexbox-wrap(space-between, initial);
-    @media only screen and (max-width: 576px) {
+    @media only screen and (max-width: $sm) {
        justify-content: center;
     }
 }
@@ -122,6 +122,10 @@
         font-size: 21px;
         font-weight: 600;
         color: $background-color-header;
+        &:after {
+            margin-left: 3px;
+            content: '₽';
+        }
     }
 
     &__status-btn {

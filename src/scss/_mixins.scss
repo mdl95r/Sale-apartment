@@ -48,3 +48,8 @@
     -webkit-animation: $name $duration $timing;
     animation: $name $duration $timing;
 }
+
+@mixin anim2($name, $duration) {
+    -webkit-animation: $name $duration;
+    animation: $name $duration;
+}

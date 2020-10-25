@@ -3,7 +3,7 @@
     color: #fff;
     background: $primary3-background-color;
     .container {
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: $md) {
             padding: 0;
         }
     }
@@ -19,7 +19,7 @@
             color: #ededed;
         }
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: $md) {
            margin-bottom: 10px;
         }
     }

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: $md) {
     .container {
          padding: 0 15px;
     }
@@ -8,7 +8,7 @@
     position: relative;
     margin-bottom: 50px;
     
-    @media only screen and (max-width: 576px) {
+    @media only screen and (max-width: $sm) {
         margin-bottom: 20px;
     }
 
@@ -17,9 +17,24 @@
         margin-bottom: 30px;
         font-size: 36px;
         color: $background-color-header;
-        @media only screen and (max-width: 576px) {
+        @media only screen and (max-width: $sm) {
             padding-left: 0;
             font-size: 25px;
+        }
+    }
+
+    &__title-bottom {
+        display: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        font-size: 24px;
+        color: $background-color-header;
+        @media only screen and (max-width: $md) {
+            font-size: 15px;
+        }
+        &_show {
+            display: flex;
+            @include anim2(price_items, .1s);
         }
     }
 }
@@ -29,7 +44,7 @@
     min-height: 500px;
     padding: 30px;
     background: #fff;
-    @media only screen and (max-width: 576px) {
+    @media only screen and (max-width: $sm) {
         padding: 0 0 20px;
     }
 }
@@ -60,7 +75,7 @@
         outline: auto;
         @include transition-ease(all, .5s);
     }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: $md) {
         right: 0;
         width: 37px;
     }
@@ -75,7 +90,7 @@
     background: $primary2-background-color;
     transform: translateX(50%);
     @include border-rad(100%);
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: $md) {
         right: 18px;
         width: 35px;
         height: 35px;
@@ -89,7 +104,7 @@
         content: '';
         background: #fff;
         @include transform-rotate(45deg);
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: $md) {
             top: 7px;
             left: 10px;
             width: 3px;
@@ -106,7 +121,7 @@
         content: '';
         background: #fff;
         @include transform-rotate(45deg);
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: $md) {
             top: 15px;
             left: 14px;
             width: 19px;
