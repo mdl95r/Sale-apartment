@@ -1,3 +1,4 @@
+include ../modals/_card-popup.pug
 main.main-content
     .container
         h1.site-title.visually-hidden Sale apartments
@@ -18,6 +19,7 @@ main.main-content
                         li.sort-list__item.js-sort-room-decrease По убыванию
                     button.sort-btn.sort-room__btn.js-sort-room-btn
             include ../card/_card-item.pug
+            +cardModal
             .card-more-wrap
-                a(href="#" class="card-more-btn js-card-more-btn") Показать еще
+                a(href="#!" class="card-more-btn js-card-more-btn") Показать еще
                 h2.main-content__title-bottom.js-main-content__title-bottom Упс... квартиры закончились.

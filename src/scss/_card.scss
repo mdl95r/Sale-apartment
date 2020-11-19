@@ -101,7 +101,8 @@
         display: block;
         font-size: 14px;
         &:after {
-            content: '²';
+            margin-left: 2px;
+            content: 'м²';
         }
     }
 

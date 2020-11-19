@@ -1,0 +1,20 @@
+mixin cardModal
+    .modal-blackout.js-modal-blackout
+    .modal.js-modal
+        button.modal-head__close-btn.js-modal-close-btn Закрыть
+        .modal-head
+            h3.modal-head__title Заявка на бронирование
+            h4.modal-head__name-appart.js-modal-name-appart Студия №44
+            h4.modal-head__name-price.js-modal-name-price 12 900 000
+        .modal-body
+            form.form(action="#")
+                label.form__label Имя:
+                    input.form__input(type="text", placeholder="Введите имя")
+                label.form__label Телефон:
+                    input.form__input(type="tel", placeholder="+7 (ххх) ххх-хх-хх" id="phone")
+                input.form__input_hidden.js-input-id
+                .form__confend-data
+                    input(type="checkbox", name="checkbox" checked id="confend-data")
+                    label(for="confend-data") Я согласен на обработку моих персональных данных. С политикой в отношении обработки персональных данных ознакомлен и согласен.
+            h3.modal-head__title.modal-head__title_hidden Спасибо за бронь! В ближайшее время мы с вами свяжемся.
+        button.modal__submit-btn Отправить заявку

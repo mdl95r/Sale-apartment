@@ -1,0 +1,127 @@
+.modal-blackout {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    height: 100%;
+    cursor: pointer;
+    background: #2a2b34;
+    animation: fadein .3s ease;
+    animation-fill-mode: forwards;
+        &_active {
+        display: block;
+    }
+}
+
+.body-lock {
+    overflow: hidden;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 11;
+    display: none;
+    min-width: 300px;
+    max-width: 500px;
+    max-height: 450px;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    &_active {
+        display: block;
+    }
+    &__submit-btn {
+        width: 100%;
+        height: 50px;
+        font-size: 19px;
+        color: #fff;
+        background: #033;
+    }
+}
+
+.form {
+    padding-top: 15px;
+    @media (max-width: $lg) {
+        padding: 0;
+    }
+    &__label {
+        font-size: 16px;
+        color: #444;
+    }
+    &__input {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 14px;
+        @media (max-width: $lg) {
+            margin: 6px 0;
+        }
+        &_hidden {
+            display: none;
+        }
+        &::placeholder {
+            font-size: 14px;
+            color: rgb(153, 153, 153);
+        }
+    }
+    &__confend-data {
+        display: flex;
+        margin: 30px 0 38px 0;
+        @media (max-width: $lg) {
+            margin: 10px 0;
+        }
+        label {
+            padding-left: 5px;
+            font-size: 11px;
+            color: #444;
+        }
+    }
+}
+
+.modal-head {
+    padding: 15px 15px 0;
+    &__title {
+        padding-right: 70px;
+        margin-bottom: 20px;
+        font-size: 26px;
+        color: #033;
+        letter-spacing: normal;
+        &_hidden {
+            display: none;
+        }
+    }
+    &__close-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        font-size: 16px;
+        color: #fff;
+        background: #8a8181;
+    }
+    &__name-appart {
+        margin-bottom: 15px;
+        font-size: 22px;
+        color: #868686;
+        @media (max-width: $lg) {
+            margin-bottom: 10px;
+        }
+    }
+    &__name-price {
+        font-size: 25px;
+        color: #868686;
+        &:after {
+            margin-left: 5px;
+            content: '₽';
+        }
+    }
+}
+
+.modal-body {
+    padding: 15px 15px 0;
+}

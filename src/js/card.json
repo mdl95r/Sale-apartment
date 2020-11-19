@@ -9,7 +9,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 13
     },
     {
         "title": "Четырехкомнатная №259",
@@ -21,7 +22,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 5467000,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 14
     },
     {
         "title": "Однокомнатная №666",
@@ -33,7 +35,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 5748440,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 15
     },
     {
         "title": "Двухкомнатная №567",
@@ -45,7 +48,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 8041049,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 16
     },
     {
         "title": "Трехкомнатная №45",
@@ -57,7 +61,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 1221834,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 17
     },
     {
         "title": "Студия №25",
@@ -69,7 +74,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 18
     },
     {
         "title": "Четырехкомнатная №259",
@@ -81,7 +87,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 19
     },
     {
         "title": "Однокомнатная №56",
@@ -93,7 +100,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 20
     },
     {
         "title": "Трехкомнтаная №46",
@@ -105,7 +113,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 21
     },
     {
         "title": "Однокомнатная №2",
@@ -117,7 +126,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 22
     },
     {
         "title": "Однокомнатная №8",
@@ -129,7 +139,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 23
     },
     {
         "title": "Двухкомнатная №23",
@@ -141,7 +152,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 24
     },
     {
         "title": "Четырехкомнатная №259",
@@ -153,7 +165,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 25
     },
     {
         "title": "Трехкомнатная №45",
@@ -165,7 +178,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 26
     },
     {
         "title": "Двухкомнатная №567",
@@ -177,7 +191,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 27
     },
     {
         "title": "Студия №12",
@@ -189,7 +204,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 28
     },
     {
         "title": "Двухкомнатная №23",
@@ -201,7 +217,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 29
     },
     {
         "title": "Шестикомнатная №128",
@@ -213,7 +230,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 30
     },
     {
         "title": "Трехкомнатная №45",
@@ -225,7 +243,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 31
     },
     {
         "title": "Студия №44",
@@ -237,7 +256,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 3461399,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 32
     },
     {
         "title": "Однокомнатная №28",
@@ -249,7 +269,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №28",
         "dataPrice": 6456342,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 33
     },
     {
         "title": "Студия №25",
@@ -261,7 +282,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 34
     },
     {
         "title": "Четырехкомнатная №259",
@@ -273,7 +295,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 35
     },
     {
         "title": "Однокомнатная №56",
@@ -285,7 +308,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 36
     },
     {
         "title": "Трехкомнтаная №46",
@@ -297,7 +321,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 37
     },
     {
         "title": "Однокомнатная №2",
@@ -309,7 +334,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 38
     },
     {
         "title": "Однокомнатная №8",
@@ -321,7 +347,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 39
     },
     {
         "title": "Двухкомнатная №23",
@@ -333,7 +360,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 40
     },
     {
         "title": "Четырехкомнатная №259",
@@ -345,7 +373,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 41
     },
     {
         "title": "Трехкомнтаная №46",
@@ -357,7 +386,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 42
     },
     {
         "title": "Однокомнатная №2",
@@ -369,7 +399,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 43
     },
     {
         "title": "Однокомнатная №8",
@@ -381,7 +412,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 44
     },
     {
         "title": "Двухкомнатная №23",
@@ -393,7 +425,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 45
     },
     {
         "title": "Четырехкомнатная №259",
@@ -405,7 +438,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 46
     },
     {
         "title": "Трехкомнатная №45",
@@ -417,7 +451,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 47
     },
     {
         "title": "Двухкомнатная №567",
@@ -429,7 +464,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 48
     },
     {
         "title": "Студия №12",
@@ -441,7 +477,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 49
     },
     {
         "title": "Двухкомнатная №23",
@@ -453,7 +490,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 50
     },
     {
         "title": "Шестикомнатная №128",
@@ -465,7 +503,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 51
     },
     {
         "title": "Трехкомнатная №45",
@@ -477,7 +516,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 52
     },
     {
         "title": "Студия №44",
@@ -489,7 +529,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 53
     },
     {
         "title": "Четырехкомнатная №259",
@@ -501,7 +542,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 5467000,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 54
     },
     {
         "title": "Однокомнатная №666",
@@ -513,7 +555,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 5748440,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 55
     },
     {
         "title": "Двухкомнатная №567",
@@ -525,7 +568,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 8041049,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 56
     },
     {
         "title": "Трехкомнатная №45",
@@ -537,7 +581,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 1221834,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 57
     },
     {
         "title": "Студия №25",
@@ -549,7 +594,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 58
     },
     {
         "title": "Четырехкомнатная №259",
@@ -561,7 +607,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 59
     },
     {
         "title": "Однокомнатная №56",
@@ -573,7 +620,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 60
     },
     {
         "title": "Трехкомнтаная №46",
@@ -585,7 +633,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 61
     },
     {
         "title": "Однокомнатная №2",
@@ -597,7 +646,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 62
     },
     {
         "title": "Однокомнатная №8",
@@ -609,7 +659,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 63
     },
     {
         "title": "Двухкомнатная №23",
@@ -621,7 +672,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 64
     },
     {
         "title": "Четырехкомнатная №259",
@@ -633,7 +685,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 65
     },
     {
         "title": "Двухкомнатная №567",
@@ -645,7 +698,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 8041049,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 66
     },
     {
         "title": "Трехкомнатная №45",
@@ -657,7 +711,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 1221834,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 67
     },
     {
         "title": "Студия №25",
@@ -669,7 +724,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 68
     },
     {
         "title": "Четырехкомнатная №259",
@@ -681,7 +737,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 69
     },
     {
         "title": "Однокомнатная №56",
@@ -693,7 +750,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 70
     },
     {
         "title": "Трехкомнтаная №46",
@@ -705,7 +763,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 71
     },
     {
         "title": "Однокомнатная №2",
@@ -717,7 +776,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 72
     },
     {
         "title": "Однокомнатная №8",
@@ -729,7 +789,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 73
     },
     {
         "title": "Двухкомнатная №23",
@@ -741,7 +802,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 74
     },
     {
         "title": "Четырехкомнатная №259",
@@ -753,7 +815,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 75
     },
     {
         "title": "Трехкомнатная №45",
@@ -765,7 +828,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 76
     },
     {
         "title": "Двухкомнатная №567",
@@ -777,7 +841,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 77
     },
     {
         "title": "Студия №12",
@@ -789,7 +854,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 78
     },
     {
         "title": "Двухкомнатная №23",
@@ -801,7 +867,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 79
     },
     {
         "title": "Шестикомнатная №128",
@@ -813,7 +880,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 80
     },
     {
         "title": "Трехкомнатная №45",
@@ -825,7 +893,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 81
     },
     {
         "title": "Студия №44",
@@ -837,7 +906,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 3461399,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 82
     },
     {
         "title": "Однокомнатная №28",
@@ -849,7 +919,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №28",
         "dataPrice": 6456342,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 83
     },
     {
         "title": "Студия №25",
@@ -861,7 +932,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 84
     },
     {
         "title": "Четырехкомнатная №259",
@@ -873,7 +945,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 85
     },
     {
         "title": "Однокомнатная №56",
@@ -885,7 +958,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 86
     },
     {
         "title": "Трехкомнтаная №46",
@@ -897,7 +971,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 87
     },
     {
         "title": "Однокомнатная №8",
@@ -909,7 +984,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 88
     },
     {
         "title": "Двухкомнатная №23",
@@ -921,7 +997,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 89
     },
     {
         "title": "Четырехкомнатная №259",
@@ -933,7 +1010,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 90
     },
     {
         "title": "Трехкомнтаная №46",
@@ -945,7 +1023,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 91
     },
     {
         "title": "Однокомнатная №2",
@@ -957,7 +1036,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 92
     },
     {
         "title": "Однокомнатная №8",
@@ -969,7 +1049,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 93
     },
     {
         "title": "Двухкомнатная №23",
@@ -981,7 +1062,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 94
     },
     {
         "title": "Четырехкомнатная №259",
@@ -993,7 +1075,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 95
     },
     {
         "title": "Трехкомнатная №45",
@@ -1005,7 +1088,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 96
     },
     {
         "title": "Двухкомнатная №567",
@@ -1017,7 +1101,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 97
     },
     {
         "title": "Студия №12",
@@ -1029,7 +1114,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 98
     },
     {
         "title": "Двухкомнатная №23",
@@ -1041,7 +1127,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 99
     },
     {
         "title": "Шестикомнатная №128",
@@ -1053,7 +1140,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 100
     },
     {
         "title": "Трехкомнатная №45",
@@ -1065,7 +1153,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 101
     },
     {
         "title": "Студия №44",
@@ -1077,7 +1166,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 102
     },
     {
         "title": "Четырехкомнатная №259",
@@ -1089,7 +1179,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 5467000,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 103
     },
     {
         "title": "Однокомнатная №666",
@@ -1101,7 +1192,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 5748440,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 104
     },
     {
         "title": "Двухкомнатная №567",
@@ -1113,7 +1205,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 8041049,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 105
     },
     {
         "title": "Трехкомнатная №45",
@@ -1125,7 +1218,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 1221834,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 106
     },
     {
         "title": "Студия №25",
@@ -1137,7 +1231,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 107
     },
     {
         "title": "Четырехкомнатная №259",
@@ -1149,7 +1244,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 108
     },
     {
         "title": "Однокомнатная №56",
@@ -1161,7 +1257,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 109
     },
     {
         "title": "Однокомнатная №8",
@@ -1173,7 +1270,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 110
     },
     {
         "title": "Двухкомнатная №23",
@@ -1185,7 +1283,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 111
     },
     {
         "title": "Четырехкомнатная №259",
@@ -1197,7 +1296,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 112
     },
     {
         "title": "Трехкомнтаная №46",
@@ -1209,7 +1309,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 113
     },
     {
         "title": "Однокомнатная №2",
@@ -1221,7 +1322,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 114
     },
     {
         "title": "Однокомнатная №8",
@@ -1233,7 +1335,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 115
     },
     {
         "title": "Двухкомнатная №23",
@@ -1245,7 +1348,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 116
     },
     {
         "title": "Четырехкомнатная №259",
@@ -1257,7 +1361,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 117
     },
     {
         "title": "Трехкомнатная №45",
@@ -1269,7 +1374,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 118
     },
     {
         "title": "Двухкомнатная №567",
@@ -1281,7 +1387,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 119
     },
     {
         "title": "Студия №12",
@@ -1293,7 +1400,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 120
     },
     {
         "title": "Двухкомнатная №23",
@@ -1305,7 +1413,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 121
     },
     {
         "title": "Шестикомнатная №128",
@@ -1317,7 +1426,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 122
     },
     {
         "title": "Трехкомнатная №45",
@@ -1329,7 +1439,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 123
     },
     {
         "title": "Студия №44",
@@ -1341,7 +1452,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 124
     },
     {
         "title": "Однокомнатная №8",
@@ -1353,7 +1465,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 125
     },
     {
         "title": "Двухкомнатная №23",
@@ -1365,7 +1478,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 126
     },
     {
         "title": "Четырехкомнатная №259",
@@ -1377,7 +1491,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 127
     },
     {
         "title": "Трехкомнтаная №46",
@@ -1389,7 +1504,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 128
     },
     {
         "title": "Однокомнатная №2",
@@ -1401,7 +1517,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 129
     },
     {
         "title": "Однокомнатная №8",
@@ -1413,7 +1530,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 130
     },
     {
         "title": "Двухкомнатная №23",
@@ -1425,7 +1543,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 131
     },
     {
         "title": "Четырехкомнатная №259",
@@ -1437,7 +1556,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 132
     },
     {
         "title": "Трехкомнатная №45",
@@ -1449,7 +1569,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 133
     },
     {
         "title": "Двухкомнатная №567",
@@ -1461,7 +1582,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 134
     },
     {
         "title": "Студия №12",
@@ -1473,7 +1595,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 135
     },
     {
         "title": "Двухкомнатная №23",
@@ -1485,7 +1608,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 136
     },
     {
         "title": "Шестикомнатная №128",
@@ -1497,7 +1621,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 137
     },
     {
         "title": "Трехкомнатная №45",
@@ -1509,7 +1634,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 138
     },
     {
         "title": "Студия №44",
@@ -1521,7 +1647,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 139
     },
     {
         "title": "Студия №12",
@@ -1533,7 +1660,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 140
     },
     {
         "title": "Двухкомнатная №23",
@@ -1545,7 +1673,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 141
     },
     {
         "title": "Шестикомнатная №128",
@@ -1557,7 +1686,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 142
     },
     {
         "title": "Трехкомнатная №45",
@@ -1569,7 +1699,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 143
     },
     {
         "title": "Студия №44",
@@ -1581,7 +1712,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 3461399,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 144
     },
     {
         "title": "Однокомнатная №28",
@@ -1593,7 +1725,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №28",
         "dataPrice": 6456342,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 145
     },
     {
         "title": "Студия №25",
@@ -1605,7 +1738,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 146
     },
     {
         "title": "Четырехкомнатная №259",
@@ -1617,7 +1751,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 147
     },
     {
         "title": "Однокомнатная №56",
@@ -1629,7 +1764,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 148
     },
     {
         "title": "Трехкомнтаная №46",
@@ -1641,7 +1777,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 149
     },
     {
         "title": "Однокомнатная №8",
@@ -1653,7 +1790,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 150
     },
     {
         "title": "Двухкомнатная №23",
@@ -1665,7 +1803,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 151
     },
     {
         "title": "Четырехкомнатная №259",
@@ -1677,7 +1816,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 152
     },
     {
         "title": "Трехкомнтаная №46",
@@ -1689,7 +1829,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 153
     },
     {
         "title": "Однокомнатная №2",
@@ -1701,7 +1842,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 154
     },
     {
         "title": "Однокомнатная №8",
@@ -1713,7 +1855,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 155
     },
     {
         "title": "Двухкомнатная №23",
@@ -1725,7 +1868,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 156
     },
     {
         "title": "Четырехкомнатная №259",
@@ -1737,7 +1881,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 157
     },
     {
         "title": "Трехкомнатная №45",
@@ -1749,7 +1894,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 158
     },
     {
         "title": "Двухкомнатная №567",
@@ -1761,7 +1907,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 159
     },
     {
         "title": "Студия №12",
@@ -1773,7 +1920,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 160
     },
     {
         "title": "Двухкомнатная №23",
@@ -1785,7 +1933,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 161
     },
     {
         "title": "Шестикомнатная №128",
@@ -1797,7 +1946,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 162
     },
     {
         "title": "Трехкомнатная №45",
@@ -1809,7 +1959,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 163
     },
     {
         "title": "Студия №44",
@@ -1821,7 +1972,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 164
     },
     {
         "title": "Четырехкомнатная №259",
@@ -1833,7 +1985,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 5467000,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 165
     },
     {
         "title": "Трехкомнтаная №46",
@@ -1845,7 +1998,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 166
     },
     {
         "title": "Однокомнатная №2",
@@ -1857,7 +2011,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 167
     },
     {
         "title": "Однокомнатная №8",
@@ -1869,7 +2024,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 168
     },
     {
         "title": "Двухкомнатная №23",
@@ -1881,7 +2037,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 169
     },
     {
         "title": "Четырехкомнатная №259",
@@ -1893,7 +2050,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 170
     },
     {
         "title": "Трехкомнатная №45",
@@ -1905,7 +2063,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 171
     },
     {
         "title": "Двухкомнатная №567",
@@ -1917,7 +2076,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 172
     },
     {
         "title": "Студия №12",
@@ -1929,7 +2089,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 173
     },
     {
         "title": "Двухкомнатная №23",
@@ -1941,7 +2102,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 174
     },
     {
         "title": "Шестикомнатная №128",
@@ -1953,7 +2115,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 175
     },
     {
         "title": "Трехкомнатная №45",
@@ -1965,7 +2128,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 176
     },
     {
         "title": "Трехкомнатная №45",
@@ -1977,7 +2141,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 1221834,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 177
     },
     {
         "title": "Студия №25",
@@ -1989,7 +2154,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 178
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2001,7 +2167,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 179
     },
     {
         "title": "Однокомнатная №56",
@@ -2013,7 +2180,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 180
     },
     {
         "title": "Трехкомнтаная №46",
@@ -2025,7 +2193,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 181
     },
     {
         "title": "Однокомнатная №2",
@@ -2037,7 +2206,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 182
     },
     {
         "title": "Однокомнатная №8",
@@ -2049,7 +2219,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 183
     },
     {
         "title": "Двухкомнатная №23",
@@ -2061,7 +2232,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 184
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2073,7 +2245,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 185
     },
     {
         "title": "Двухкомнатная №567",
@@ -2085,7 +2258,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 8041049,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 186
     },
     {
         "title": "Трехкомнатная №45",
@@ -2097,7 +2271,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 1221834,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 187
     },
     {
         "title": "Студия №25",
@@ -2109,7 +2284,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 188
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2121,7 +2297,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 189
     },
     {
         "title": "Однокомнатная №56",
@@ -2133,7 +2310,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 190
     },
     {
         "title": "Трехкомнтаная №46",
@@ -2145,7 +2323,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 191
     },
     {
         "title": "Однокомнатная №2",
@@ -2157,7 +2336,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 192
     },
     {
         "title": "Однокомнатная №8",
@@ -2169,7 +2349,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 193
     },
     {
         "title": "Двухкомнатная №23",
@@ -2181,7 +2362,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 194
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2193,7 +2375,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 195
     },
     {
         "title": "Трехкомнатная №45",
@@ -2205,7 +2388,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 196
     },
     {
         "title": "Двухкомнатная №567",
@@ -2217,7 +2401,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 197
     },
     {
         "title": "Студия №12",
@@ -2229,7 +2414,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 198
     },
     {
         "title": "Двухкомнатная №23",
@@ -2241,7 +2427,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 199
     },
     {
         "title": "Шестикомнатная №128",
@@ -2253,7 +2440,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 200
     },
     {
         "title": "Трехкомнатная №45",
@@ -2265,7 +2453,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 201
     },
     {
         "title": "Студия №44",
@@ -2277,7 +2466,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 3461399,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 202
     },
     {
         "title": "Однокомнатная №28",
@@ -2289,7 +2479,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №28",
         "dataPrice": 6456342,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 203
     },
     {
         "title": "Студия №25",
@@ -2301,7 +2492,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 204
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2313,7 +2505,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 205
     },
     {
         "title": "Однокомнатная №56",
@@ -2325,7 +2518,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 206
     },
     {
         "title": "Трехкомнтаная №46",
@@ -2337,7 +2531,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 207
     },
     {
         "title": "Однокомнатная №8",
@@ -2349,7 +2544,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 208
     },
     {
         "title": "Двухкомнатная №23",
@@ -2361,7 +2557,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 209
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2373,7 +2570,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 210
     },
     {
         "title": "Трехкомнтаная №46",
@@ -2385,7 +2583,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 211
     },
     {
         "title": "Однокомнатная №2",
@@ -2397,7 +2596,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 212
     },
     {
         "title": "Однокомнатная №8",
@@ -2409,7 +2609,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 213
     },
     {
         "title": "Двухкомнатная №23",
@@ -2421,7 +2622,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 214
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2433,7 +2635,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 215
     },
     {
         "title": "Трехкомнатная №45",
@@ -2445,7 +2648,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 216
     },
     {
         "title": "Двухкомнатная №567",
@@ -2457,7 +2661,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 217
     },
     {
         "title": "Студия №12",
@@ -2469,7 +2674,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 218
     },
     {
         "title": "Двухкомнатная №23",
@@ -2481,7 +2687,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 219
     },
     {
         "title": "Шестикомнатная №128",
@@ -2493,7 +2700,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 220
     },
     {
         "title": "Трехкомнатная №45",
@@ -2505,7 +2713,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 221
     },
     {
         "title": "Студия №44",
@@ -2517,7 +2726,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 222
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2529,7 +2739,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 5467000,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 223
     },
     {
         "title": "Однокомнатная №666",
@@ -2541,7 +2752,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 5748440,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 224
     },
     {
         "title": "Двухкомнатная №567",
@@ -2553,7 +2765,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 8041049,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 225
     },
     {
         "title": "Трехкомнатная №45",
@@ -2565,7 +2778,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 1221834,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 226
     },
     {
         "title": "Студия №25",
@@ -2577,7 +2791,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 227
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2589,7 +2804,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 228
     },
     {
         "title": "Однокомнатная №56",
@@ -2601,7 +2817,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 229
     },
     {
         "title": "Однокомнатная №8",
@@ -2613,7 +2830,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 230
     },
     {
         "title": "Двухкомнатная №23",
@@ -2625,7 +2843,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 231
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2637,7 +2856,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 232
     },
     {
         "title": "Трехкомнтаная №46",
@@ -2649,7 +2869,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 233
     },
     {
         "title": "Однокомнатная №2",
@@ -2661,7 +2882,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 234
     },
     {
         "title": "Однокомнатная №8",
@@ -2673,7 +2895,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 235
     },
     {
         "title": "Двухкомнатная №23",
@@ -2685,7 +2908,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 236
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2697,7 +2921,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 237
     },
     {
         "title": "Трехкомнатная №45",
@@ -2709,7 +2934,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 238
     },
     {
         "title": "Двухкомнатная №567",
@@ -2721,7 +2947,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 239
     },
     {
         "title": "Студия №12",
@@ -2733,7 +2960,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 240
     },
     {
         "title": "Двухкомнатная №23",
@@ -2745,7 +2973,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 241
     },
     {
         "title": "Шестикомнатная №128",
@@ -2757,7 +2986,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 242
     },
     {
         "title": "Трехкомнатная №45",
@@ -2769,7 +2999,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 243
     },
     {
         "title": "Студия №44",
@@ -2781,7 +3012,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 244
     },
     {
         "title": "Однокомнатная №8",
@@ -2793,7 +3025,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 245
     },
     {
         "title": "Двухкомнатная №23",
@@ -2805,7 +3038,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 246
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2817,7 +3051,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 247
     },
     {
         "title": "Студия №25",
@@ -2829,7 +3064,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 248
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2841,7 +3077,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 249
     },
     {
         "title": "Однокомнатная №56",
@@ -2853,7 +3090,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 250
     },
     {
         "title": "Трехкомнтаная №46",
@@ -2865,7 +3103,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 251
     },
     {
         "title": "Однокомнатная №8",
@@ -2877,7 +3116,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 252
     },
     {
         "title": "Двухкомнатная №23",
@@ -2889,7 +3129,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 253
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2901,7 +3142,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 254
     },
     {
         "title": "Трехкомнтаная №46",
@@ -2913,7 +3155,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 255
     },
     {
         "title": "Однокомнатная №2",
@@ -2925,7 +3168,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 256
     },
     {
         "title": "Однокомнатная №8",
@@ -2937,7 +3181,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 257
     },
     {
         "title": "Двухкомнатная №23",
@@ -2949,7 +3194,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 258
     },
     {
         "title": "Четырехкомнатная №259",
@@ -2961,7 +3207,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 259
     },
     {
         "title": "Трехкомнатная №45",
@@ -2973,7 +3220,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 260
     },
     {
         "title": "Двухкомнатная №567",
@@ -2985,7 +3233,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 261
     },
     {
         "title": "Студия №12",
@@ -2997,7 +3246,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 262
     },
     {
         "title": "Двухкомнатная №23",
@@ -3009,7 +3259,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 263
     },
     {
         "title": "Шестикомнатная №128",
@@ -3021,7 +3272,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 264
     },
     {
         "title": "Трехкомнатная №45",
@@ -3033,7 +3285,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 265
     },
     {
         "title": "Студия №44",
@@ -3045,7 +3298,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 266
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3057,7 +3311,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 5467000,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 267
     },
     {
         "title": "Однокомнатная №666",
@@ -3069,7 +3324,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 5748440,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 268
     },
     {
         "title": "Двухкомнатная №567",
@@ -3081,7 +3337,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 8041049,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 269
     },
     {
         "title": "Трехкомнатная №45",
@@ -3093,7 +3350,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 1221834,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 270
     },
     {
         "title": "Студия №25",
@@ -3105,7 +3363,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 271
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3117,7 +3376,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 272
     },
     {
         "title": "Однокомнатная №56",
@@ -3129,7 +3389,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 273
     },
     {
         "title": "Однокомнатная №8",
@@ -3141,7 +3402,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 274
     },
     {
         "title": "Двухкомнатная №23",
@@ -3153,7 +3415,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 275
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3165,7 +3428,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 276
     },
     {
         "title": "Трехкомнтаная №46",
@@ -3177,7 +3441,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 277
     },
     {
         "title": "Однокомнатная №2",
@@ -3189,7 +3454,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 278
     },
     {
         "title": "Однокомнатная №8",
@@ -3201,7 +3467,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 279
     },
     {
         "title": "Двухкомнатная №23",
@@ -3213,7 +3480,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 280
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3225,7 +3493,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 281
     },
     {
         "title": "Трехкомнатная №45",
@@ -3237,7 +3506,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 282
     },
     {
         "title": "Двухкомнатная №567",
@@ -3249,7 +3519,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 283
     },
     {
         "title": "Студия №12",
@@ -3261,7 +3532,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 284
     },
     {
         "title": "Двухкомнатная №23",
@@ -3273,7 +3545,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 285
     },
     {
         "title": "Шестикомнатная №128",
@@ -3285,7 +3558,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 286
     },
     {
         "title": "Трехкомнатная №45",
@@ -3297,7 +3571,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 287
     },
     {
         "title": "Студия №44",
@@ -3309,7 +3584,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 288
     },
     {
         "title": "Однокомнатная №8",
@@ -3321,7 +3597,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 289
     },
     {
         "title": "Двухкомнатная №23",
@@ -3333,7 +3610,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 290
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3345,7 +3623,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 291
     },
     {
         "title": "Трехкомнтаная №46",
@@ -3357,7 +3636,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 292
     },
     {
         "title": "Однокомнатная №2",
@@ -3369,7 +3649,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 293
     },
     {
         "title": "Однокомнатная №8",
@@ -3381,7 +3662,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 294
     },
     {
         "title": "Двухкомнатная №23",
@@ -3393,7 +3675,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 295
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3405,7 +3688,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 296
     },
     {
         "title": "Трехкомнатная №45",
@@ -3417,7 +3701,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 297
     },
     {
         "title": "Двухкомнатная №567",
@@ -3429,7 +3714,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 298
     },
     {
         "title": "Студия №12",
@@ -3441,7 +3727,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 299
     },
     {
         "title": "Двухкомнатная №23",
@@ -3453,7 +3740,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 300
     },
     {
         "title": "Шестикомнатная №128",
@@ -3465,7 +3753,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 301
     },
     {
         "title": "Трехкомнатная №45",
@@ -3477,7 +3766,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 302
     },
     {
         "title": "Студия №44",
@@ -3489,7 +3779,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 303
     },
     {
         "title": "Студия №12",
@@ -3501,7 +3792,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 304
     },
     {
         "title": "Двухкомнатная №23",
@@ -3513,7 +3805,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 305
     },
     {
         "title": "Шестикомнатная №128",
@@ -3525,7 +3818,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 306
     },
     {
         "title": "Трехкомнатная №45",
@@ -3537,7 +3831,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 307
     },
     {
         "title": "Студия №44",
@@ -3549,7 +3844,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 3461399,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 308
     },
     {
         "title": "Однокомнатная №28",
@@ -3561,7 +3857,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №28",
         "dataPrice": 6456342,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 309
     },
     {
         "title": "Студия №25",
@@ -3573,7 +3870,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 310
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3585,7 +3883,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 311
     },
     {
         "title": "Однокомнатная №56",
@@ -3597,7 +3896,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 312
     },
     {
         "title": "Трехкомнтаная №46",
@@ -3609,7 +3909,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 313
     },
     {
         "title": "Однокомнатная №8",
@@ -3621,7 +3922,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 314
     },
     {
         "title": "Двухкомнатная №23",
@@ -3633,7 +3935,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 315
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3645,7 +3948,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 316
     },
     {
         "title": "Трехкомнтаная №46",
@@ -3657,7 +3961,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 317
     },
     {
         "title": "Однокомнатная №2",
@@ -3669,7 +3974,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 318
     },
     {
         "title": "Однокомнатная №8",
@@ -3681,7 +3987,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 319
     },
     {
         "title": "Двухкомнатная №23",
@@ -3693,7 +4000,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 320
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3705,7 +4013,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 321
     },
     {
         "title": "Трехкомнатная №45",
@@ -3717,7 +4026,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 322
     },
     {
         "title": "Двухкомнатная №567",
@@ -3729,7 +4039,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 323
     },
     {
         "title": "Студия №12",
@@ -3741,7 +4052,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 324
     },
     {
         "title": "Двухкомнатная №23",
@@ -3753,7 +4065,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 325
     },
     {
         "title": "Шестикомнатная №128",
@@ -3765,7 +4078,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 326
     },
     {
         "title": "Трехкомнатная №45",
@@ -3777,7 +4091,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 327
     },
     {
         "title": "Студия №44",
@@ -3789,7 +4104,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Студия №44",
         "dataPrice": 12900000,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 328
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3801,7 +4117,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 5467000,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 329
     },
     {
         "title": "Трехкомнтаная №46",
@@ -3813,7 +4130,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 330
     },
     {
         "title": "Однокомнатная №2",
@@ -3825,7 +4143,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 331
     },
     {
         "title": "Однокомнатная №8",
@@ -3837,7 +4156,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 332
     },
     {
         "title": "Двухкомнатная №23",
@@ -3849,7 +4169,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 333
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3861,7 +4182,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 334
     },
     {
         "title": "Трехкомнатная №45",
@@ -3873,7 +4195,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 335
     },
     {
         "title": "Двухкомнатная №567",
@@ -3885,7 +4208,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 336
     },
     {
         "title": "Студия №12",
@@ -3897,7 +4221,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 337
     },
     {
         "title": "Двухкомнатная №23",
@@ -3909,7 +4234,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 338
     },
     {
         "title": "Шестикомнатная №128",
@@ -3921,7 +4247,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
+        "dataRoom": 6,
+        "dataId": 339
     },
     {
         "title": "Трехкомнатная №45",
@@ -3933,7 +4260,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 3939555,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 340
     },
     {
         "title": "Трехкомнатная №45",
@@ -3945,7 +4273,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 1221834,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 341
     },
     {
         "title": "Студия №25",
@@ -3957,7 +4286,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 342
     },
     {
         "title": "Четырехкомнатная №259",
@@ -3969,7 +4299,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 343
     },
     {
         "title": "Однокомнатная №56",
@@ -3981,7 +4312,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 344
     },
     {
         "title": "Трехкомнтаная №46",
@@ -3993,7 +4325,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 345
     },
     {
         "title": "Однокомнатная №2",
@@ -4005,7 +4338,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 346
     },
     {
         "title": "Однокомнатная №8",
@@ -4017,7 +4351,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 347
     },
     {
         "title": "Двухкомнатная №23",
@@ -4029,7 +4364,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 348
     },
     {
         "title": "Четырехкомнатная №259",
@@ -4041,7 +4377,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 349
     },
     {
         "title": "Двухкомнатная №567",
@@ -4053,7 +4390,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 8041049,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 350
     },
     {
         "title": "Трехкомнатная №45",
@@ -4065,7 +4403,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 1221834,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 351
     },
     {
         "title": "Студия №25",
@@ -4077,7 +4416,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Студия №25",
         "dataPrice": 5808262,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 352
     },
     {
         "title": "Четырехкомнатная №259",
@@ -4089,7 +4429,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 3409096,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 353
     },
     {
         "title": "Однокомнатная №56",
@@ -4101,7 +4442,8 @@
         "imageWebp": "img/Apartment636.webp",
         "imageAlt": "Изображение.Однокомнатная №56",
         "dataPrice": 8005136,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 354
     },
     {
         "title": "Трехкомнтаная №46",
@@ -4113,7 +4455,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Трехкомнтаная №46",
         "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 355
     },
     {
         "title": "Однокомнатная №2",
@@ -4125,7 +4468,8 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Однокомнатная №2",
         "dataPrice": 7460332,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 356
     },
     {
         "title": "Однокомнатная №8",
@@ -4137,7 +4481,8 @@
         "imageWebp": "img/Apartment633.webp",
         "imageAlt": "Изображение.Однокомнатная №8",
         "dataPrice": 2944500,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 357
     },
     {
         "title": "Двухкомнатная №23",
@@ -4149,7 +4494,8 @@
         "imageWebp": "img/Apartment632.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 7247740,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 358
     },
     {
         "title": "Четырехкомнатная №259",
@@ -4161,7 +4507,8 @@
         "imageWebp": "img/Apartment635.webp",
         "imageAlt": "Изображение.Четырехкомнатная №259",
         "dataPrice": 7627350,
-        "dataRoom": 4
+        "dataRoom": 4,
+        "dataId": 359
     },
     {
         "title": "Трехкомнатная №45",
@@ -4173,7 +4520,8 @@
         "imageWebp": "img/Apartment637.webp",
         "imageAlt": "Изображение.Трехкомнатная №45",
         "dataPrice": 7704167,
-        "dataRoom": 3
+        "dataRoom": 3,
+        "dataId": 360
     },
     {
         "title": "Двухкомнатная №567",
@@ -4185,7 +4533,8 @@
         "imageWebp": "img/Apartment638.webp",
         "imageAlt": "Изображение.Двухкомнатная №567",
         "dataPrice": 3488324,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 361
     },
     {
         "title": "Студия №12",
@@ -4197,7 +4546,8 @@
         "imageWebp": "img/Apartment639.webp",
         "imageAlt": "Изображение.Студия №12",
         "dataPrice": 9973902,
-        "dataRoom": 1
+        "dataRoom": 1,
+        "dataId": 362
     },
     {
         "title": "Двухкомнатная №23",
@@ -4209,7 +4559,8 @@
         "imageWebp": "img/Apartment640.webp",
         "imageAlt": "Изображение.Двухкомнатная №23",
         "dataPrice": 2894377,
-        "dataRoom": 2
+        "dataRoom": 2,
+        "dataId": 363
     },
     {
         "title": "Шестикомнатная №128",
@@ -4221,30 +4572,7 @@
         "imageWebp": "img/Apartment634.webp",
         "imageAlt": "Изображение.Шестикомнатная №128",
         "dataPrice": 4606924,
-        "dataRoom": 6
-    },
-    {
-        "title": "Четырехкомнатная №259",
-        "decor": "базовая отделка",
-        "measure": 38,
-        "price": "7 627 350",
-        "floor": "10/12",
-        "image": "img/Apartment635.png",
-        "imageWebp": "img/Apartment635.webp",
-        "imageAlt": "Изображение.Четырехкомнатная №259",
-        "dataPrice": 7627350,
-        "dataRoom": 4
-    },
-    {
-        "title": "Трехкомнтаная №46",
-        "decor": "черновая отделка",
-        "measure": 27,
-        "price": "7 418 704",
-        "floor": "1/12",
-        "image": "img/Apartment635.png",
-        "imageWebp": "img/Apartment635.webp",
-        "imageAlt": "Изображение.Трехкомнтаная №46",
-        "dataPrice": 7418704,
-        "dataRoom": 3
+        "dataRoom": 6,
+        "dataId": 364
     }
 ]

@@ -32,3 +32,7 @@ window.addEventListener('scroll', function () {
         }
     }
 });
+
+function saveCurrentScroll(pageScroll) {
+    document.documentElement.scrollTop = pageScroll;
+}

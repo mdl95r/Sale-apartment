@@ -19,18 +19,25 @@ document.addEventListener('DOMContentLoaded', function () {
     cardsList = document.querySelector('.cards-list'),
     cardsItems = document.querySelectorAll('.cards-item'),
     appartsCount = document.querySelector('.js-main-content__title'),
+    body = document.querySelector('body'),
+    modalBlackout = document.querySelector('.js-modal-blackout'),
+    modalWindow = document.querySelector('.js-modal'),
     appartsEnd = document.querySelector('.js-main-content__title-bottom');
   let cardsCountFinal;
   let data;
   let result;
   let ElementsInArray;
+  let pageScroll;
+
 
 
   // =include card/_card.js
+  // =include card/_imask.js
   // =include menu/_menu.js
   // =include sort/_sort.js
   // =include sort/price/_price.js
   // =include sort/room/_room.js
   // =include scroll/_scroll.js
+  // =include modals/_card-popup.js
   // =include up-btn/_up-btn.js
 });

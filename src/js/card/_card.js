@@ -7,19 +7,18 @@ function getAppartsCount(method, url) {
   const xhr = new XMLHttpRequest();
   xhr.open(method, url);
 
-  setTimeout(function () {
-    xhr.onload = function () {
-      if (this.status != 200) {
-        alert(this.status + ': ' + this.statusText);
-      } else {
-        data = JSON.parse(this.responseText);
-        cardsCountLast = data.length;
-        cardsCountFinal = cardsCountFirst + cardsCountLast;
-        appartsCount.innerHTML = `Найдено ${cardsCountFinal} ${declination(cardsCountFinal, ['квартира', 'квартиры', 'квартир'])}`;
-      }
-    };
-    xhr.send();
-  }, 1300)
+  xhr.onload = function () {
+    if (this.status != 200) {
+      alert(this.status + ': ' + this.statusText);
+    } else {
+      data = JSON.parse(this.responseText);
+      cardsCountLast = data.length;
+      cardsCountFinal = cardsCountFirst + cardsCountLast;
+      appartsCount.innerHTML = `Найдено ${cardsCountFinal} ${declination(cardsCountFinal, ['квартира', 'квартиры', 'квартир'])}`;
+      ElementsInArray = getElementsInArray(data);
+    }
+  };
+  xhr.send();
 }
 
 // функция для добавления окончания зависимости от кол-ва чего-либо (в данном случае квартир)
@@ -36,12 +35,19 @@ function declination(n, appartsWords) {
   return appartsWords[2];
 }
 
-cardsList.addEventListener('click', function (e) {
+document.addEventListener('click', function (e) {
   const target = e.target;
-  if (target && target.classList.contains('cards-item__status-btn')) {
-    target.classList.remove('cards-item__status-btn--free');
-    target.classList.add('cards-item__status-btn--booked');
-    target.innerHTML = 'Забронировано';
+  if (target.classList.contains('cards-item__status-btn')) {
+    const currentItem = target.closest('.cards-item');
+    const nameAppart = currentItem.querySelector('.cards-item__title').innerText;
+    const priceAppart = currentItem.querySelector('.cards-item__price').innerText;
+    const cardId = currentItem.dataset.id;
+
+    cardPopupShow();
+    getDataInCard(nameAppart, priceAppart, cardId);
+    // target.classList.remove('cards-item__status-btn--free');
+    // target.classList.add('cards-item__status-btn--booked');
+    // target.innerHTML = 'Забронировано';
   }
 });
 
@@ -61,7 +67,6 @@ cardsList.addEventListener('click', function (e) {
 function getElementsInArray(arr) {
   let STEP = 18;
   let _offset = 0;
-  console.log(data);
   result = function () {
     let offset = _offset++ * STEP;
     return arr.slice(offset, offset + STEP);
@@ -69,11 +74,8 @@ function getElementsInArray(arr) {
   return result;
 }
 
-setTimeout(function () {
-  ElementsInArray = getElementsInArray(data);
-}, 1700)
-
 cardMore.addEventListener('click', function (e) {
+  pageScroll = document.documentElement.scrollTop;
   e.preventDefault();
   const cardsItems = document.querySelectorAll('.cards-item');
   const cardsReady = ElementsInArray();
@@ -84,13 +86,18 @@ cardMore.addEventListener('click', function (e) {
   }
 
   showCards(cardsReady);
+  saveCurrentScroll(pageScroll);
 });
 
 function showCards(data) {
   data.forEach(function (item) {
     const li = cardsList.appendChild(document.createElement('li'));
     li.className = 'cards-item';
-    setAttributes(li, { "data-price": `${item.dataPrice}`, "data-room": `${item.dataRoom}` });
+    setAttributes(li, {
+      "data-price": `${item.dataPrice}`,
+      "data-room": `${item.dataRoom}`,
+      "data-id": `${item.dataId}`
+    });
     li.innerHTML =
       `
           <article class="cards-item__wrapper">
