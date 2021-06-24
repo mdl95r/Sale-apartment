@@ -57,6 +57,7 @@
         color: #fff;
         text-transform: uppercase;
         background: $primary3-background-color;
+        overflow-anchor: none;
         &:hover {
             @include hover-default(#ccc, .4s);
         }
@@ -71,10 +72,6 @@
     width: 60px;
     height: 100%;
     cursor: pointer;
-    &:hover {
-        outline: auto;
-        @include transition-ease(all, .5s);
-    }
     @media only screen and (max-width: $md) {
         right: 0;
         width: 37px;
